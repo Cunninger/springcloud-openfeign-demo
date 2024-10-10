@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yam.order.mapper.OrderMapper">
+  <resultMap id="BaseResultMap" type="cn.yam.order.domain.Order">
+    <!--@mbg.generated-->
+    <!--@Table `order`-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="total_fee" jdbcType="INTEGER" property="totalFee" />
+    <result column="payment_type" jdbcType="BOOLEAN" property="paymentType" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="status" jdbcType="BOOLEAN" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="pay_time" jdbcType="TIMESTAMP" property="payTime" />
+    <result column="consign_time" jdbcType="TIMESTAMP" property="consignTime" />
+    <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+    <result column="close_time" jdbcType="TIMESTAMP" property="closeTime" />
+    <result column="comment_time" jdbcType="TIMESTAMP" property="commentTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, total_fee, payment_type, user_id, `status`, create_time, pay_time, consign_time, 
+    end_time, close_time, comment_time, update_time
+  </sql>
+</mapper>

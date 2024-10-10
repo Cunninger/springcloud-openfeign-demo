@@ -1,0 +1,16 @@
+
+server:
+  port: 8091
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/hmall?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+  application:
+    name: userservice
+logging:
+  level:
+    cn.yam: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS

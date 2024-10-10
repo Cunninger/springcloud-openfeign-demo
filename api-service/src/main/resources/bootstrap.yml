@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: apiservice
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        file-extension: yaml
+        namespace: 3c7fbd2c-e4e5-4d0e-a2bb-366c865fee33
+      discovery:
+        namespace: 3c7fbd2c-e4e5-4d0e-a2bb-366c865fee33
