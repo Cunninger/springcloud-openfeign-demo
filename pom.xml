@@ -24,6 +24,7 @@
     <modules>
         <module>api-service</module>
         <module>user-service</module>
+        <module>api-gateway</module>
     </modules>
     <scm>
         <connection/>

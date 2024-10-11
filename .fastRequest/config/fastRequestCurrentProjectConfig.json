@@ -13,6 +13,15 @@
 				}
 			],
 			"name":"api-service"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:10010"
+				}
+			],
+			"name":"api-gateway"
 		}
 	],
 	"envList":[
@@ -25,7 +34,8 @@
 	"postScript":"",
 	"preScript":"",
 	"projectList":[
-		"api-service"
+		"api-service",
+		"api-gateway"
 	],
 	"syncModel":{
 		"branch":"master",
